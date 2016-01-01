@@ -1,0 +1,39 @@
+/*
+Dillon Bastan, 2015. 
+This is the stylesheet for the main content in the individual artist pages.
+*/
+
+
+#artistPhoto {
+	width: 230px;
+	height: 230px;
+}
+
+figure {
+	margin-right: 10px;
+}
+
+td {
+	vertical-align: top;
+}
+
+h1 {
+	font-size: 9pt;
+}
+
+#artistDescription {
+	margin-top: 25px;
+}
+
+#projectLinks {
+	margin-top: 25px;
+}
+
+#projectLinks img {
+	width: 70px;
+	height: 70px;
+}
+
+#projectLinks a {
+	margin-right: 25px;
+}

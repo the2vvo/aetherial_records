@@ -1,0 +1,15 @@
+/*
+Dillon Bastan, 2015. 
+This is the stylesheet for the main content in the artists page.
+*/
+
+nav.mainContent a {
+	display: block;
+	line-height: 3em;
+	font-size: 9pt;
+	font-weight: 900;
+}
+
+nav.mainContent {
+	text-align: center;
+}

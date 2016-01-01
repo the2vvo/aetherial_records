@@ -1,0 +1,25 @@
+/*
+Dillon Bastan, 2015. 
+This is the stylesheet for the main content in the releases page.
+*/
+
+
+section.mainContent {
+	position: relative;
+	padding-bottom: 45px;
+	max-width: 640px;
+	min-width: 320px;
+}
+
+section.mainContent figure {
+	display: inline-block;
+	text-align: left;
+	width: 160px;
+	margin: 0 0 15px 0;
+}
+
+section.mainContent figcaption {
+	padding-top: 5px;
+	font-size: 8pt;
+	font-weight: 900;
+}

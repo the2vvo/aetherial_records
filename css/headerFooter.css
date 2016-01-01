@@ -1,0 +1,88 @@
+/*
+Dillon Bastan, 2015. 
+This is the stylesheet for the header and footer for all pages.
+*/
+
+
+/*HEADER*/
+#headerWrapper {
+	margin: 0 5% 0 5%;
+	padding: 0 20px 0 20px;
+}
+
+header {
+	margin: 0 auto;
+	max-width: 610px;
+	min-width: 305px;
+}
+
+figure.header img {
+	position: relative;
+	left: -45px;
+	height: 150px;
+	width: 150px;
+}
+
+nav.header {
+	margin: 0 0 0 14%;
+	text-align: center;
+}
+
+nav.header a {
+	margin-left: 25px;
+	font-weight: 900;
+	font-size: 11pt;
+}
+
+nav.header a em {
+	font-style: normal;
+	text-decoration: underline;
+}
+/**/
+
+
+/*FOOTER*/
+#footerWrapper {
+	margin: 0 5% 0 5%;
+	padding: 0 20px 0 20px;
+}
+
+footer {
+	margin: 0 auto;
+	margin-bottom: 40px;
+	max-width: 610px;
+	min-width: 305px;
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: #666;
+	font-weight: 700;
+	font-size: 8pt;
+}
+
+nav.footer {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+nav.footer a {
+	display: block;
+	color: #555;
+}
+
+div.footer {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	float: right;
+	margin-top: 5px;
+}
+
+div.footer * {
+	margin-left: 25px;
+	color: #555;
+}
+
+div.footer p {
+	display: inline;
+}
+/**/

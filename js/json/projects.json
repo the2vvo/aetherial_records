@@ -1,0 +1,23 @@
+{"projects" : [
+
+	{
+		"title" : "testPro",
+		"year" : "2018",
+		"mainImage" : "images/testCover.png",
+		"summary" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"artists" : ["testers"],
+		"slideshow" : ["images/testCover.png", "images/testAgainCover.png", "images/testNow.png"]
+	},
+
+	{
+		"title" : "tryPro",
+		"year" : "2020",
+		"mainImage" : "images/tryCover.png",
+		"summary" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni",
+		"description" : "Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+		"artists" : ["tryers", "testers"],
+		"slideshow" : ["images/tryCover.png", "images/tryAgainCover.png", "images/tryNow.png"]
+	}
+
+]}
