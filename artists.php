@@ -87,9 +87,18 @@ This is the PHP doc for the artists page, indexing the individual artists.
 				</nav>
 
 				<div class = "footer">
-					<a href="php/newsletter.php">newsletter</a>
+					<a href="services.html">services</a>
+					<p id="newsletterButton">newsletter</p>
 					<a href="mailto:someone@somewhere.com">contact</a>
 					<p>2015 &copy;</p>
+				</div>
+
+				<div id="newsletterInput">
+					<form method="POST" action="php/newsletter.php"/>
+						<input type="email" name="clientEmail" required/>
+						<input type="submit"/>
+						<p id="newsletterConfirm"></p>
+					</form>
 				</div>
 
 			</footer>
