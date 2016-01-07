@@ -91,7 +91,10 @@ This is the PHP doc for the projects page, indexing the individual projects.
 				</nav>
 
 				<div class = "footer">
-					<a href="services.html">services</a>
+					<span class="footer">
+						<a href="friends.html">friends</a>
+						<a href="services.html">services</a>
+					</span>
 					<p id="newsletterButton">newsletter</p>
 					<a href="mailto:someone@somewhere.com">contact</a>
 					<p>2015 &copy;</p>
@@ -99,7 +102,7 @@ This is the PHP doc for the projects page, indexing the individual projects.
 
 				<div id="newsletterInput">
 					<form method="POST" action="php/newsletter.php"/>
-						<input type="email" name="clientEmail" required/>
+						<input type="email" name="clientEmail" placeholder="enter email" required/>
 						<input type="submit"/>
 						<p id="newsletterConfirm"></p>
 					</form>

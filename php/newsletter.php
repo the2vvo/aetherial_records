@@ -1,8 +1,10 @@
 <?php
+
 /*
 Dillon Bastan 2015.
 This is a PHP function for adding a client to a newsletter.
 */
+
 
 //Has the function for filtering input
 include 'inputFilter.php';
@@ -16,7 +18,9 @@ $headers .= "Reply-To: $clientEmail";
 
 $sendStatus = mail($masterEmail, $subject, $msg, $headers);
 
-if($sendStatus)
+if (empty($clientEmail))
+	$sendStatus = "Error: Email field is empty.";
+else if ($sendStatus)
 	$sendStatus = "Successfully Added!";
 else
 	$sendStatus = "Addition Unsuccessful!";
@@ -24,8 +28,7 @@ else
 ?>
 
 
-
-
+<!-- Start HTML display rendering -->
 <!doctype html>
 <html>
 

@@ -15,8 +15,14 @@ $(document).ready( function() {
 
 	//Open the input for the clients email for the newsletter
 	$('#newsletterButton').on("click", function() {
-		$('#newsletterInput').css("visibility", "visible");
-		$('#newsletterInput input[type="email"]').focus();
+
+		$('#newsletterButton').toggleClass('em');
+
+		if( $('#newsletterButton').hasClass("em")) {
+			$('#newsletterInput').css('visibility', 'visible');
+			$('#newsletterInput input[type="email"]').focus();
+		} else
+			$('#newsletterInput').css('visibility', 'hidden');
 	});
 
 });
