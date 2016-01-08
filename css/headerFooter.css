@@ -4,6 +4,16 @@ This is the stylesheet for the header and footer for all pages.
 */
 
 
+/*For all*/
+.em {
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+	text-decoration: underline;
+}
+/**/
+
+
 /*HEADER*/
 #headerWrapper {
 	margin: 0 5% 0 5%;
@@ -32,11 +42,6 @@ nav.header a {
 	margin-left: 25px;
 	font-weight: 900;
 	font-size: 11pt;
-}
-
-nav.header a em {
-	font-style: normal;
-	text-decoration: underline;
 }
 /**/
 
@@ -75,13 +80,6 @@ div.footer {
 	position: relative;
 	float: right;
 	margin-top: 5px;
-}
-
-.em {
-	padding: 0;
-	margin: 0;
-	font-style: normal;
-	text-decoration: underline;
 }
 
 div.footer * {

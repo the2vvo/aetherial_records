@@ -8,7 +8,11 @@ This is a PHP function for adding a client to a newsletter.
 
 //Has the function for filtering input
 include 'inputFilter.php';
-$clientEmail = input_filter($_POST['clientEmail']);
+
+
+if (isset($_POST['clientEmail'])) {
+	$clientEmail = input_filter($_POST['clientEmail']);
+}
 
 $masterEmail = "admin@aetherialrecords.com";
 $subject = "Add to newsletter";
@@ -19,42 +23,10 @@ $headers .= "Reply-To: $clientEmail";
 $sendStatus = mail($masterEmail, $subject, $msg, $headers);
 
 if (empty($clientEmail))
-	$sendStatus = "Error: Email field is empty.";
+	echo "Email field is empty.";
 else if ($sendStatus)
-	$sendStatus = "Successfully Added!";
+	echo "Success!";
 else
-	$sendStatus = "Addition Unsuccessful!";
+	echo "Failed!";
 
 ?>
-
-
-<!-- Start HTML display rendering -->
-<!doctype html>
-<html>
-
-	<head>
-
-		<link rel = "stylesheet" type = "text/css" href = "../css/all.css"/>
-
-		<meta charset = "utf-8"/>
-		<title>AETHERIAL.newsletter</title>
-		<link rel="shortcut icon" href="../images/logo.ico"/>
-
-	</head>
-
-	<body>
-
-		<div id = "contentWrapper">
-			<section class = "mainContent">
-				<p>
-					<?php echo $sendStatus; ?>
-				</p>
-
-				<a href="../home.html">return</a>
-
-			</section>
-		</div>
-
-	</body>
-
-</html>

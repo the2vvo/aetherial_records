@@ -25,6 +25,22 @@ $(document).ready( function() {
 			$('#newsletterInput').css('visibility', 'hidden');
 	});
 
+
+	//Newsletter form handling. Calls on the newsletter.php file
+	$('#newsletterForm').submit( function() {
+
+		var url = "php/newsletter.php",
+			value = $("#clientEmail").val(),
+			data = {'clientEmail' : value};
+
+		$.post(url, data, function(response) {
+
+			$('#newsletterStatus').html(response);
+		});
+
+		return false;
+	});
+
 });
 
 
@@ -39,4 +55,11 @@ var backgroundSizing = function() {
 	} else {
 		$content.css('background-size', '100% 100%')
 	}
+};
+
+
+//Underlines the link of the current page
+var underlineLink = function(pageName) {
+
+	$('#' + pageName + "_link").addClass('em');
 };

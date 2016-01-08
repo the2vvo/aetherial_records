@@ -51,7 +51,6 @@ var slideshow = function() {
 		target = $('ul.slideshow li.active').index();
 		target === 0 ? target = lastImage : target --;
 		slideImage(target);
-		//resetTiming();
 	});
 
 	//Next Image
@@ -60,33 +59,7 @@ var slideshow = function() {
 		target = $('ul.slideshow li.active').index();
 		target === lastImage ? target = 0 : target ++;
 		slideImage(target);
-		//resetTiming();
 	});
-
-/*
-	//Function for sliding the image via timer
-	var slideIndex = function() {
-
-		target = $('ul.slideshow li.active').index();
-		target === lastImage ? target = 0 : target++;
-		slideImage(target);
-	};
-
-	//Create interval
-	var timing = setInterval( function() {
-			slideIndex();
-	}, transitionSpeed);
-
-	//Function for resetting the timer
-	var resetTiming = function() {
-
-		clearInterval(timing);
-
-		timing = setInterval( function() {
-				slideIndex();
-		}, transitionSpeed);
-	};
-*/
 };
 
 

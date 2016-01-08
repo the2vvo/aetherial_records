@@ -21,7 +21,7 @@ var displayArtists = function() {
 
 			var artistName = document.createElement('a');
 
-			$(artistName).attr("href", "artists.php?artistName=" + this.name);
+			$(artistName).attr("href", "index.php?pageName=artistsIndex&artistName=" + this.name);
 			$(artistName).html(this.name.toUpperCase());
 
 			$("nav.mainContent").append(artistName);
