@@ -26,7 +26,7 @@ $current_page = "html/" . $pageName . ".html";
 if (file_exists($current_page))
 	echo file_get_contents($current_page);
 else
-	echo file_get_contents("html/pageMissing.html");
+	echo file_get_contents("html/missing.html");
 
 
 //If at the Artists or Projects Index page, render individual artist or project content

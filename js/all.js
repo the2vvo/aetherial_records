@@ -61,5 +61,10 @@ var backgroundSizing = function() {
 //Underlines the link of the current page
 var underlineLink = function(pageName) {
 
+	//First check if it's an index page or not
+	var isIndex = pageName.indexOf('_');
+	if (isIndex !== -1)
+		pageName = pageName.substring(0, isIndex);
+
 	$('#' + pageName + "_link").addClass('em');
 };

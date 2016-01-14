@@ -22,8 +22,8 @@ var displayProjects = function(pageNumber) {
 			var project = new Project();
 
 			project.setAttr(project.tr, "id", this.title);
-			project.setAttr(project.aImage, "href", "index.php?pageName=projectsIndex&projectName=" + this.title);
-			project.setAttr(project.aContinue, "href", "index.php?pageName=projectsIndex&projectName=" + this.title);
+			project.setAttr(project.aImage, "href", "index.php?pageName=projects_index&projectName=" + this.title);
+			project.setAttr(project.aContinue, "href", "index.php?pageName=projects_index&projectName=" + this.title);
 			project.setAttr(project.imageMain, "src", this.mainImage);
 			project.setAttr(project.imageMain, "alt", this.title);
 

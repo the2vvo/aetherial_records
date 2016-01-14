@@ -23,7 +23,6 @@ $(document).ready( function() {
 });
 
 
-
 //Slideshow function
 var slideshow = function() {
 	var target,
@@ -61,6 +60,7 @@ var slideshow = function() {
 		slideImage(target);
 	});
 };
+
 
 //Loads projects data from JSON file and renders project on HTML document
 var renderProject = function(projectName) {
