@@ -62,7 +62,6 @@ var slideshow = function() {
 	});
 };
 
-
 //Loads projects data from JSON file and renders project on HTML document
 var renderProject = function(projectName) {
 	$.getJSON("js/json/projects.json", function(data) {
@@ -77,12 +76,21 @@ var renderProject = function(projectName) {
 				$(this.slideshow).each( function() {
 					var newLi = document.createElement('li'),
 						newSpan = document.createElement('span'),
-						newImg = document.createElement('img');
+						isImage, newContent;
 
+					//Determine if image or video
+					isImage = this.indexOf("images/");
+					if(isImage !== -1) {
+						newContent = document.createElement('img');
+						$(newContent).attr('alt', this);
+					} else {
+						newContent = document.createElement('iframe');
+						$(newContent).attr('frameborder', 0);
+					}
+
+					$(newContent).attr('src', this);
 					$(newSpan).addClass('center');
-					$(newImg).attr('src', this);
-					$(newImg).attr('alt', this);
-					$(newLi).append(newSpan, newImg);
+					$(newLi).append(newSpan, newContent);
 					$('ul.slideshow').append(newLi);
 				});
 

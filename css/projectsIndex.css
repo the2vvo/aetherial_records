@@ -27,7 +27,7 @@ ul.slideshow {
 ul.slideshow li {
 	float: left;
 	list-style-type: none;
-	width: 520px;
+	width: 522px;
 	height: 352px;
 }
 
@@ -43,6 +43,14 @@ ul.slideshow img {
 	max-height: 350px;
 	width: auto;
 	height: auto;
+}
+
+ul.slideshow iframe {
+	vertical-align: middle;
+	width: 480px;
+	height: 310px;
+	border-style: solid;
+	border-width: 1px;
 }
 
 span.move {
