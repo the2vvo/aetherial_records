@@ -1,35 +1,35 @@
 {"albums" : [
 
 	{
-		"title" : "test",
-		"artists" : ["testers"],
-		"year" : "2016",
-		"cover" : "images/testCover.png",
-		"site" : "http://www.bandcamp.com/testBC"
+		"title" : "scintilla",
+		"artists" : ["the2vvo"],
+		"year" : "TBA",
+		"cover" : "images/scintilla.png",
+		"site" : ""
 	},
 
 	{
-		"title" : "testAgain",
-		"artists" : ["testers"],
-		"year" : "2017",
-		"cover" : "images/testAgainCover.png",
-		"site" : "http://www.bandcamp.com/testAgainBC"
+		"title" : "ztba",
+		"artists" : ["zzara"],
+		"year" : "TBA",
+		"cover" : "images/zzaraTBA.png",
+		"site" : ""
 	},
 
 	{
-		"title" : "try",
-		"artists" : ["tryers"],
-		"year" : "2019",
-		"cover" : "images/tryCover.png",
-		"site" : "http://www.bandcamp.com/tryBC"
+		"title" : "mtba",
+		"artists" : ["macro/micro"],
+		"year" : "TBA",
+		"cover" : "images/macromicroTBA.png",
+		"site" : ""
 	},
 
 	{
-		"title" : "tryAgain",
-		"artists" : ["tryers"],
-		"year" : "2039",
-		"cover" : "images/tryAgainCover.png",
-		"site" : "http://www.bandcamp.com/tryAgainBC"
+		"title" : "itba",
+		"artists" : ["integrate"],
+		"year" : "TBA",
+		"cover" : "images/integrateTBA.png",
+		"site" : ""
 	}
 
 ]}

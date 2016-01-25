@@ -9,8 +9,16 @@ This is the stylesheet for the main content in the individual artist pages.
 	height: 230px;
 }
 
-figure {
+figure.artistPhoto {
 	margin-right: 10px;
+}
+
+#artistLinks {
+	margin-top: 20px;
+}
+
+#artistLinks a {
+	display: block;
 }
 
 td {

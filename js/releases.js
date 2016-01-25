@@ -40,7 +40,11 @@ var displayAlbums = function(pageNumber) {
 
 			album.setHTML(album.divName, albumInfo);
 			album.setHTML(album.divYear, this.year);
-			album.setHTML(album.aSite, "Buy");
+
+			if(this.year != "TBA")
+				album.setHTML(album.aSite, "Buy");
+			else
+				album.setHTML(album.aSite, "coming soon");;
 
 			//Append together elements in the figure
 			album.appendElements();

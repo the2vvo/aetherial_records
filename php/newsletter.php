@@ -14,7 +14,7 @@ if (isset($_POST['clientEmail'])) {
 	$clientEmail = input_filter($_POST['clientEmail']);
 }
 
-$masterEmail = "admin@aetherialrecords.com";
+$masterEmail = "ndivuyo@gmail.com";
 $subject = "Add to newsletter";
 $msg = "Add $clientEmail to the newsletter system.";
 $headers = "From: newsletter@aetherialrecords.com";
