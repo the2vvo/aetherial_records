@@ -10,6 +10,7 @@ var Album = function() {
 	this.figcaption = document.createElement('figcaption'),
 	this.aCover = document.createElement('a'),
 	this.aSite = document.createElement('a'),
+	this.aArtist = document.createElement('a'),
 	this.divName = document.createElement('div'),
 	this.divYear = document.createElement('div');
 
@@ -27,6 +28,7 @@ var Album = function() {
 	this.appendElements = function() {
 
 		$(this.aCover).append(this.imageCover);
+		$(this.divName).prepend(this.aArtist);
 		$(this.figcaption).append(this.divName, this.divYear, this.aSite);
 		$(this.figure).append(this.aCover, this.figcaption);
 	}

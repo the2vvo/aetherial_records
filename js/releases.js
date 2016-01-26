@@ -34,10 +34,12 @@ var displayAlbums = function(pageNumber) {
 			album.setAttr(album.imageCover, "src", this.cover);
 			album.setAttr(album.imageCover, "alt", this.title);
 			album.setAttr(album.aSite, "href", this.site);
+			album.setAttr(album.aArtist, "href", "index.php?pageName=artists_index&artistName=" + this.artists[0]);
 
 			//May need to loop if multiple artists?
-			var albumInfo = this.artists[0].toUpperCase() + "." + this.title.toUpperCase();
+			var albumInfo = "." + this.title.toUpperCase();
 
+			album.setHTML(album.aArtist, this.artists[0].toUpperCase());
 			album.setHTML(album.divName, albumInfo);
 			album.setHTML(album.divYear, this.year);
 

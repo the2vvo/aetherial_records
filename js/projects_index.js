@@ -94,11 +94,14 @@ var renderProject = function(projectName) {
 					$('ul.slideshow').append(newLi);
 				});
 
-				$('#projectTitle').html(
-					this.artists[0].toUpperCase() + "." + 
-					this.title.toUpperCase() + "." +
-					this.year
-				);
+				var aArtist = document.createElement('a'),
+					strTitle;
+
+				$(aArtist).html(this.artists[0].toUpperCase());
+				$(aArtist).attr('href', "index.php?pageName=artists_index&artistName=" + this.artists[0]);
+				strTitle = "." + this.title.toUpperCase() + "." + this.year;
+
+				$('#projectTitle').append(aArtist, strTitle);
 
 				$('p.projectInfo').html(this.description);
 
