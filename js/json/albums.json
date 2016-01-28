@@ -4,7 +4,7 @@
 		"title" : "scintilla",
 		"artists" : ["the2vvo"],
 		"year" : "TBA",
-		"cover" : "images/scintilla.png",
+		"cover" : "images/releases/scintilla.png",
 		"site" : ""
 	},
 
@@ -12,7 +12,7 @@
 		"title" : "ztba",
 		"artists" : ["zzara"],
 		"year" : "TBA",
-		"cover" : "images/zzaraTBA.png",
+		"cover" : "images/releases/zzaraTBA.png",
 		"site" : ""
 	},
 
@@ -20,7 +20,7 @@
 		"title" : "mtba",
 		"artists" : ["macro/micro"],
 		"year" : "TBA",
-		"cover" : "images/macromicroTBA.png",
+		"cover" : "images/releases/macromicroTBA.png",
 		"site" : ""
 	},
 
@@ -28,7 +28,7 @@
 		"title" : "itba",
 		"artists" : ["integrate"],
 		"year" : "TBA",
-		"cover" : "images/integrateTBA.png",
+		"cover" : "images/releases/integrateTBA.png",
 		"site" : ""
 	}
 

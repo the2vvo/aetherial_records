@@ -94,15 +94,22 @@ var renderProject = function(projectName) {
 					$('ul.slideshow').append(newLi);
 				});
 
-				var aArtist = document.createElement('a'),
+				var navArtists = document.createElement('nav'),
 					strTitle;
 
-				$(aArtist).html(this.artists[0].toUpperCase());
-				$(aArtist).attr('href', "index.php?pageName=artists_index&artistName=" + this.artists[0]);
-				strTitle = "." + this.title.toUpperCase() + "." + this.year;
+				//Add all artists involved
+				$(this.artists).each( function() {
 
-				$('#projectTitle').append(aArtist, strTitle);
+					var aArtist = document.createElement('a');
 
+					$(aArtist).html(this.toUpperCase() + ".");
+					$(aArtist).attr('href', "index.php?pageName=artists_index&artistName=" + this);
+					$(navArtists).append(aArtist);
+				});
+
+				strTitle = this.title.toUpperCase() + "." + this.year;
+
+				$('#projectTitle').append(navArtists, strTitle);
 				$('p.projectInfo').html(this.description);
 
 				//Exit $.each loop

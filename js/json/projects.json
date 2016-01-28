@@ -1,23 +1,33 @@
 {"projects" : [
 
-	{
-		"title" : "testPro",
-		"year" : "2018",
-		"mainImage" : "images/testCover.png",
-		"summary" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-		"artists" : ["testers"],
-		"slideshow" : ["images/testCover.png", "images/testAgainCover.png", "http://www.youtube.com/embed/WgcKHEYEOfo", "images/testNow.png"]
+	{	
+		"title" : "juniper",
+		"year" : "2016",
+		"mainImage" : "images/projects/juniper/main.png",
+		"summary" : "",
+		"description" : "",
+		"artists" : ["the2vvo", "integrate"],
+		"slideshow" : ["http://player.vimeo.com/video/153322709"]
+	},
+
+	{	
+		"title" : "invisible wall",
+		"year" : "2015",
+		"mainImage" : "images/projects/invisibleWall/main.png",
+		"summary" : "",
+		"description" : "",
+		"artists" : ["the2vvo"],
+		"slideshow" : ["http://player.vimeo.com/video/142641903", "images/projects/invisibleWall/wall1.png", "images/projects/invisibleWall/wall2.png", "images/projects/invisibleWall/wall3.png"]
 	},
 
 	{
-		"title" : "tryPro",
-		"year" : "2020",
-		"mainImage" : "images/tryCover.png",
-		"summary" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni",
-		"description" : "Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-		"artists" : ["tryers", "testers"],
-		"slideshow" : ["images/tryCover.png", "http://player.vimeo.com/video/114133282","images/tryAgainCover.png", "images/tryNow.png"]
+		"title" : "nature 2 numbers",
+		"year" : "2015",
+		"mainImage" : "images/projects/nature2numbers/main.png",
+		"summary" : "",
+		"description" : "",
+		"artists" : ["the2vvo"],
+		"slideshow" : ["http://player.vimeo.com/video/147218119"]
 	}
 
 ]}

@@ -78,4 +78,8 @@ section.projectInfo {
 	max-width: 520px;
 }
 
+section.projectInfo nav {
+	display: inline-block;
+}
+
 /**/

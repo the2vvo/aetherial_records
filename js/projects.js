@@ -19,7 +19,8 @@ var displayProjects = function(pageNumber) {
 
 		$(data.projects).each( function() {
 	
-			var project = new Project();
+			var project = new Project(),
+				strArtists = "";
 
 			project.setAttr(project.tr, "id", this.title);
 			project.setAttr(project.aImage, "href", "index.php?pageName=projects_index&projectName=" + this.title);
@@ -27,8 +28,12 @@ var displayProjects = function(pageNumber) {
 			project.setAttr(project.imageMain, "src", this.mainImage);
 			project.setAttr(project.imageMain, "alt", this.title);
 
+			$(this.artists).each( function() {
+				strArtists += this.toUpperCase() + '.';
+			});
+
 			project.setHTML(project.hTitle, 
-				this.artists[0].toUpperCase() + '.' +
+				strArtists +
 				this.title.toUpperCase() + '.' + 
 				this.year
 			);

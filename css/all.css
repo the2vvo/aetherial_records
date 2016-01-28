@@ -6,7 +6,7 @@ This is the stylesheet for consistent rules in all pages.
 body {
 	font-family: arial;
 	zoom: 1;
-	background-image: url('../images/background.png');
+	background-image: url('../images/etc/background.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

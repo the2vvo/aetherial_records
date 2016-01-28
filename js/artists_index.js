@@ -77,7 +77,7 @@ var renderArtist = function(artistName) {
 
 								if (this.title == currentProject) {
 
-									$(newA).attr('href', "index.php?pageName=projectsIndex&projectName=" + this.title);
+									$(newA).attr('href', "index.php?pageName=projects_index&projectName=" + this.title);
 									$(newImg).attr('src', this.mainImage);
 									$(newImg).attr('alt', this.title);
 
