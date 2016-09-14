@@ -1,34 +1,34 @@
 {"albums" : [
 
 	{
-		"title" : "scintilla",
-		"artists" : ["the2vvo"],
-		"year" : "TBA",
-		"cover" : "images/releases/scintilla.png",
-		"site" : ""
+		"title" : "lse/comeback",
+		"artists" : ["zzara"],
+		"year" : "2016",
+		"cover" : "images/releases/zzara-comeback.png",
+		"site" : "https://aetherialrecords.bandcamp.com/album/lse-comeback"
 	},
 
 	{
-		"title" : "ztba",
-		"artists" : ["zzara"],
-		"year" : "TBA",
-		"cover" : "images/releases/zzaraTBA.png",
-		"site" : ""
+		"title" : "scintilla",
+		"artists" : ["the2vvo"],
+		"year" : "2016",
+		"cover" : "images/releases/the2vvo-scintilla.png",
+		"site" : "http://aetherialrecords.bandcamp.com/album/scintilla"
+	},
+
+	{
+		"title" : "nostalgia",
+		"artists" : ["integrate"],
+		"year" : "2016",
+		"cover" : "images/releases/integrate-nostalgia.png",
+		"site" : "https://aetherialrecords.bandcamp.com/album/nostalgia"
 	},
 
 	{
 		"title" : "mtba",
 		"artists" : ["macro/micro"],
 		"year" : "TBA",
-		"cover" : "images/releases/macromicroTBA.png",
-		"site" : ""
-	},
-
-	{
-		"title" : "itba",
-		"artists" : ["integrate"],
-		"year" : "TBA",
-		"cover" : "images/releases/integrateTBA.png",
+		"cover" : "images/releases/macro-micro-TBA.png",
 		"site" : ""
 	}
 
